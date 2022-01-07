@@ -26,7 +26,7 @@ Have a working kubernetes cluster with nodes.
 Well that is pretty simple. 
 
 * Clone this git 
-* Put the KCS9 file in your `/usr/local/bin` folder
+* Put the KND5 file in your `/usr/local/bin` folder
 * Edit the permissions on the file `chmod +x /usr/local/bin/KND5`
 * `exec $SHELL` (Optional step, re-opening your terminal will do the trick as well) 
 * You will be able to use `KND5` as a command from now on
