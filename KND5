@@ -1,0 +1,20 @@
+#!/bin/bash
+
+PS3="Which node do you want to describe? "
+
+nodes=($(kubectl get nodes |sed 's/\|/ /'|awk '{print $1}'))
+onlynodes=() 
+
+for node in "${nodes[@]}"
+do 
+  if [[ $node != "NAME" ]]; then 
+    onlynodes+=($node)
+  fi
+done
+
+select node in "${onlynodes[@]}"
+do
+  kubectl describe node $node
+  exit 1
+done
+
