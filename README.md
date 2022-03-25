@@ -41,4 +41,4 @@ Well that is pretty simple.
                             beta.kubernetes.io/os=linux
         ... 
 
-<button onclick="window.location.href='https://www.buymeacoffee.com/kubernetian';">Buy me a coffee :coffee:</button>
+[:coffee:](https://www.buymeacoffee.com/kubernetian)
