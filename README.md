@@ -40,3 +40,5 @@ Well that is pretty simple.
         Labels:             beta.kubernetes.io/arch=amd64
                             beta.kubernetes.io/os=linux
         ... 
+
+[:coffee:](https://www.buymeacoffee.com/kubernetian)
